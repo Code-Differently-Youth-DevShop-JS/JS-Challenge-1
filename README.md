@@ -52,14 +52,14 @@ Ever wondered how long would it take to get to the center of a tootsie pop roll?
 
 Prompt 3
 
-1. Write a function named myGrade that:
+1. Write a function named ``myGrade`` that:
 - takes one argument, a number score.
 - returns a grade for the score, either "A", "B", "C", "D", or "F".
 2. Call that function for five different scores and log the result to make sure it works.
 
 Prompt 4
 
-1. Write a function named ageCalculator:
+1. Write a function named ``ageCalculator``:
    - takes two arguments, current year and year born.
    - return a year.
 2. Call the function and log the result to find how old you are.
