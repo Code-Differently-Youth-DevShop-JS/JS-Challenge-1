@@ -33,7 +33,9 @@ Prompt 1
 2. Display the following in three different alert dialog boxes:
 
 "Turn left to go to safety"
+<br>
 "Turn right to go back to camp"
+<br>
 "Go straight to get across the bridge"
 
 3. Display "The choice is yours.." to the console.
@@ -53,8 +55,8 @@ Ever wondered how long would it take to get to the center of a tootsie pop roll?
 Prompt 3
 
 1. Write a function named ``myGrade`` that:
-- takes one argument, a number score.
-- returns a grade for the score, either "A", "B", "C", "D", or "F".
+   - takes one argument, a number score.
+   - returns a grade for the score, either "A", "B", "C", "D", or "F".
 2. Call that function for five different scores and log the result to make sure it works.
 
 Prompt 4
