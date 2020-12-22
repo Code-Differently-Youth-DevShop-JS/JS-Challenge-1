@@ -1,4 +1,4 @@
-# JS-Quiz-1
+# JS-Challenge-1
 
 This is to serve as an assessment of your skillset so far in the JavaScript block of the Dev Shop. 
 
