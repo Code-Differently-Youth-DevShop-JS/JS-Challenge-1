@@ -34,6 +34,8 @@ Prompt 1
 
 ### Numbers
 
+Prompt 1 
+
 1. You are counting points for a football game, given the amount of touchdowns scored and field goals scored, find the final points for the team and return that value.
 
 Write a function called ``points``:
@@ -42,12 +44,12 @@ Write a function called ``points``:
 
 
 
-
 ### Functions 
 
 Please complete the following prompts on functions below.
 
 Prompt 1
+<br>
 Ever wondered how long would it take to get to the center of a tootsie pop roll? 
 
 1. Store the current day of the month into a variable.
