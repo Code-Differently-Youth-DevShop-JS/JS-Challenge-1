@@ -44,7 +44,7 @@ Prompt 2
 Ever wondered how long would it take to get to the center of a tootsie pop roll? 
 
 1. Store the current day of the month into a variable.
-2. Store the number of days in a month into a variable.
+2. Store the number of days in a a year into a variable.
 3. Store an estimated guess of how many days it would take (as a number).
 4. Calculate how many tootsie roll pops you could eat in a month.
 5. Output the result to the screen like so: "It will take you NN of days for you to get to the center of a tootsie poll roll. It will take you X days in a month to achieve this.".
