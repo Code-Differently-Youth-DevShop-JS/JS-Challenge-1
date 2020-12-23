@@ -9,7 +9,7 @@ This is to serve as an assessment of your skillset so far in the JavaScript bloc
 
 ## Requirements
 - You are to pseudocode for each prompt.
-- YOur code
+- Your code
 
 ## Task 
 You are to complete the following prompts below. You will notice that 
@@ -19,17 +19,76 @@ You are to complete the following prompts below. You will notice that
 
 Prompt 1  
 
-1. Display an alert dialog with the following: "Beware, there is danger ahead of you!"
+1. Display an ``alert`` dialog with the following: "Beware, there is danger ahead of you!"
 
-2. Display the following in three different alert dialog boxes:
+```js
 
-"Turn left to go to safety"
-<br>
-"Turn right to go back to camp"
-<br>
-"Go straight to get across the bridge"
+'Beware, there is danger ahead of you!'
 
-3. Display "The choice is yours.." to the console.
+```
+
+2. Display the following in three different ``alert`` dialog boxes:
+
+
+
+```js
+'Turn left to go to safety.'
+```
+
+```js
+'Turn right to go back to camp.'
+```
+
+```js
+'Go straight to get across the bridge.'
+```
+
+
+1. Display to the console:
+
+```js
+"The choice is yours.."
+```
+Prompt 2
+
+Define a variable with ``let``, ``var``, and ``const``.
+
+Assign a number to each of the variables.
+
+```js
+Example:
+const price = 9;
+var total = 15;
+let shorts = 4;
+```
+
+Display to the console the results of each variable.
+
+Assign a different number to each one of the variables.
+
+Display to the console the results of the changed variables.
+
+Prompt 3
+
+1. Add a script tag to an HTML file.
+
+Write an ``alert`` dialog using the script tag saying:
+
+```js
+"I wish my super power was teleportation on December 21st."
+```
+
+Prompt 4
+
+Take in a user prompt to be displayed in the console that asks the user:
+
+1. How old are you?
+2. What is your favorite color?
+3. What school do you go to?
+
+Store the user inputs in a variable for each question.
+
+Output the results onto the console.
 
 
 ### Numbers
@@ -42,6 +101,12 @@ Write a function called ``points``:
  - takes two arguments, ``touchdown`` and ``fieldGoal``
  - Output the result for 3 different final points.
 
+Prompt 2
+
+Crate a variable called ``firstName``.
+Create a variable called ``lastName``.
+
+Concatenate the two variables and output the result on the console.
 
 
 ### Functions 
@@ -67,6 +132,8 @@ Prompt 2
    - returns a grade for the score, either "A", "B", "C", "D", or "F".
 2. Call that function for five different scores and log the result to make sure it works.
 
+
+
 Prompt 3
 
 1. Write a function named ``ageCalculator``:
@@ -74,4 +141,21 @@ Prompt 3
    - return a number that tells you what your age is.
 2. Call the function and log the result to find how old you are.
 
+Prompt 4
+
+Write a program that will tell the number of days that are in that particular month.
+
+```html 
+Enter a month: September
+  September has 30 days.
+
+  Enter a month: JANUARY
+  January has 30 day
+
+  Enter a month: December
+  February has 28 days.
+
+  Enter a month: DEcember
+  February has 31 days.
+  ```
 
