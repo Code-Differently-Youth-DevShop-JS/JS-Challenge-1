@@ -146,48 +146,30 @@ Prompt 3
 
 Prompt 4
 
-Write a program that will tell the number of days that are in that particular month.
+The planets array:
 
-```html 
-Enter a month: September
-  September has 30 days.
-
-  Enter a month: JANUARY
-  January has 30 day
-
-  Enter a month: December
-  February has 28 days.
-
-  Enter a month: DEcember
-  February has 31 days.
-  ```
-
-  Prompt 5
-
-  The cars array:
-
-  ```js
-
+```js
   const planets = [
   {
     brand: 'Honda',
-    maxMileage: '200,000 mi',
-    moons: '26',
+    maxMileage: '230,000 mi',
+    types: '26',
     bestFeature: 'Turbo Power',
     purchaseMonth: 'December',
     inventedYear: '1948',
     description: 'The Honda Motor Company, Ltd. is a Japanese public multinational conglomerate corporation primarily known as a manufacturer of automobiles, motorcycles, and power equipment.',
-    facts: 'A 1997 Honda Accord Drove over One Million Miles.'
+    fact: 'A 1997 Honda Accord Drove over One Million Miles.'
   },
   {
-    name: 'Mars',
-    diameter: '4,212 mi',
-    moons: '2',
-    temp: '-153 to 20 °C',
-    orbitDays: '687',
-    orbitYears: '1.9',
-    description: `The fourth planet from the Sun and the second smallest planet in the solar system. Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance. It's a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide.`,
-    facts: 'Mars has the largest dust storms in the solar system. They can last for months and cover the entire planet. On Mars the Sun appears about half the size as it does on Earth.'
+    name: 'Toyota',
+    maxMileage: '210,000 mi',
+    types: '16',
+    bestFeature: 'Heated Seats',
+    purchaseMonth: 'June',
+    inventedYear: '1937',
+    description: `Toyota Motor Corporation is a Japanese multinational automotive manufacturer headquartered in Toyota, Aichi, Japan. It was founded by Kiichiro Toyoda and incorporated on August 28, 1937.`,
+    fact: 'Toyota is now known as one of the greenest in the industry.'
   }
 ];
 ```
+Map through the cars array and return a card for each object in the array:
