@@ -118,17 +118,20 @@ Prompt 1
 <br>
 Ever wondered how long would it take to get to the center of a tootsie pop roll? 
 
+Write a function named ``calculateLicks`` that:
+ - takes two arguments, ``days``, ``numPerDay``:
+
 1. Store the current day of the month into a variable.
 2. Store the number of days in a a year into a variable.
 3. Store an estimated guess of how many days it would take (as a number).
 4. Calculate how many tootsie roll pops you could eat in a month.
-5. Output the result to the screen like so: "It will take you NN of days for you to get to the center of a tootsie poll roll. It will take you X days in a month to achieve this.".
+5. Output the result to the screen like so: "It will take you NN of days for you to get to the center of a tootsie poll roll. It will take you X days in a month to achieve this if you lick faster.".
 
 
 Prompt 2
 
 1. Write a function named ``myGrade`` that:
-   - takes one argument, a number score.
+   - takes one argument, a number ``score``.
    - returns a grade for the score, either "A", "B", "C", "D", or "F".
 2. Call that function for five different scores and log the result to make sure it works.
 
@@ -137,7 +140,7 @@ Prompt 2
 Prompt 3
 
 1. Write a function named ``ageCalculator``:
-   - takes two arguments, current year and year born.
+   - takes one argument, current year and year born.
    - return a number that tells you what your age is.
 2. Call the function and log the result to find how old you are.
 
@@ -159,3 +162,32 @@ Enter a month: September
   February has 31 days.
   ```
 
+  Prompt 5
+
+  The cars array:
+
+  ```js
+
+  const planets = [
+  {
+    brand: 'Honda',
+    maxMileage: '200,000 mi',
+    moons: '26',
+    bestFeature: 'Turbo Power',
+    purchaseMonth: 'December',
+    inventedYear: '1948',
+    description: 'The Honda Motor Company, Ltd. is a Japanese public multinational conglomerate corporation primarily known as a manufacturer of automobiles, motorcycles, and power equipment.',
+    facts: 'A 1997 Honda Accord Drove over One Million Miles.'
+  },
+  {
+    name: 'Mars',
+    diameter: '4,212 mi',
+    moons: '2',
+    temp: '-153 to 20 °C',
+    orbitDays: '687',
+    orbitYears: '1.9',
+    description: `The fourth planet from the Sun and the second smallest planet in the solar system. Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance. It's a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide.`,
+    facts: 'Mars has the largest dust storms in the solar system. They can last for months and cover the entire planet. On Mars the Sun appears about half the size as it does on Earth.'
+  }
+];
+```
