@@ -116,17 +116,12 @@ Please complete the following prompts on functions below.
 Prompt 1
 <br>
 <br>
-Ever wondered how long would it take to get to the center of a tootsie pop roll? 
+Instead of paying someone to give you false hopes of what your career will be in the future, why not program it yourself? 
 
-Write a function named ``calculateLicks`` that:
- - takes two arguments, ``days``, ``numPerDay``:
-
-1. Store the current day of the month into a variable.
-2. Store the number of days in a a year into a variable.
-3. Store an estimated guess of how many days it would take (as a number).
-4. Calculate how many tootsie roll pops you could eat in a month.
-5. Output the result to the screen like so: "It will take you NN of days for you to get to the center of a tootsie poll roll. It will take you X days in a month to achieve this if you lick faster.".
-
+1. Write a function named ``futureLife`` that:
+ - takes 4 arguments: ``number of jobs``, ``geographic location``, ``place of work``, ``job title``.
+ - outputs your future to the screen like so: "You will be a X in the Y location. You will be working for Z and will work at N companies in your whole lifetime."
+2. Call that function 3 times with 3 different values for the arguments.
 
 Prompt 2
 
