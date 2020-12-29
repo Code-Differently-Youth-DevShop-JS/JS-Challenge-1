@@ -120,7 +120,7 @@ Instead of paying someone to give you false hopes of what your career will be in
 
 1. Write a function named ``futureLife`` that:
  - takes 4 arguments: ``number of jobs``, ``geographic location``, ``place of work``, ``job title``.
- - outputs your future to the screen like so: "You will be a X in the Y location. You will be working for Z and will work at N companies in your whole lifetime."
+ - outputs your future to the screen like so: "You will be a X in the Y location. You will be working for Z and will work at N companies throughout your life."
 2. Call that function 3 times with 3 different values for the arguments.
 
 Prompt 2
@@ -167,4 +167,4 @@ The planets array:
   }
 ];
 ```
-Map through the cars array and return a card for each object in the array:
+Map through the cars array and return a card for each object in the array.
